@@ -1,6 +1,6 @@
-*{
+/* *{
     margin: 0;
-}
+}*/
 
 /* stile header */
 #testata{
@@ -34,6 +34,38 @@
     color: #ccc;
 
 }
+
+/* stile immagine articolo */
+
+.immagini-articolo img{
+    margin: 10px;
+    float: left;
+    width: calc(100% / 2 - 20px);
+    height: 800px;
+}
+
+.didascalia_immagine{
+    font-size: 18px;
+}
+
+/* contenuto articolo stile  */
+
+.contenuto-articolo{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* stile tabella */
+.testata{
+    background-color: blue;
+    color: white;
+}
+.corpo{
+    background-color: aqua;
+    
+}
+
+
 
 
 
