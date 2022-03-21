@@ -1,11 +1,39 @@
+*{
+    margin: 0;
+}
+
+/* stile header */
 #testata{
     background-image: url(../img/pattern.png);
     background-color: #4994EC;
     background-position: top;
-    padding: 30px 0 10px 0;
+    padding: 80px 0 0 0;
+    height: 80px;
 }
 
 #logo{
     width: 200px;
     
 }
+
+/* stile main */
+/* stile intestazione articolo */
+
+.intestazione-articolo .titolo{
+    font-size: 80px;
+}
+.intestazione-articolo h3{
+    color: #ccc;
+
+}
+.intestazione-articolo h3 span{
+    color: blue;
+
+}
+.intestazione-articolo .sottotitolo{
+    color: #ccc;
+
+}
+
+
+
