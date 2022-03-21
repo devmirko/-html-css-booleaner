@@ -1,6 +1,11 @@
-/* *{
-    margin: 0;
-}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+ 
+
+
+body{
+    font-family: arial, roboto , sans serif;
+}
 
 /* stile header */
 #testata{
@@ -55,14 +60,22 @@
     font-weight: 400;
 }
 
+.evidenziato{
+    background-color: yellow;
+    
+}
+
 /* stile tabella */
 .testata{
-    background-color: blue;
+    background-color: #20A9E5;
     color: white;
 }
 .corpo{
-    background-color: aqua;
+    background-color: #B1E5F2;
 
+}
+td{
+    width: 30%;
 }
 
 /* stile footer */
@@ -84,6 +97,9 @@
      background-image: url(../img/graph.jpg);
  }
 
+ footer h3{
+     color: #ccc;
+ }
 
 
 
