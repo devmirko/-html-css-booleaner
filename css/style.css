@@ -62,8 +62,27 @@
 }
 .corpo{
     background-color: aqua;
+
+}
+
+/* stile footer */
+.contenitore-immagine{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
     
 }
+
+#schermo{
+    background-image: url(../img/monitor.jpg);
+}
+
+ #grafico{
+     background-image: url(../img/graph.jpg);
+ }
 
 
 
